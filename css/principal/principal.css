@@ -10,6 +10,7 @@
 	height: 400px;
 	margin-top: 20px;
 	display: inline-block;
+	border-radius: 10px;
 }
 
 .caixa__paragrafo{
