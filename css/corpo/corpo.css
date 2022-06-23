@@ -1,0 +1,59 @@
+/*CORPO-SITE*/
+
+#corpo{
+	background-image: url(https://static.wixstatic.com/media/8a3e6d_6a199168c8a045b3a68fd392dd57594b.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.corpo__caixa{
+    text-align: center;
+	margin-top: 1%;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.corpo__titulo{
+	font-family: raleway, sans-serif;
+	font-size: 58px;
+	color: white;
+}
+.corpo__subtitulo{
+	font-size: 19px;
+	font-style: italic;
+	color: white;
+	text-shadow: 3px 3px 4px #A5BAC6 ;
+}
+
+
+@media (max-width: 1023.9px) {
+	.corpo__caixa{
+		width:90%;
+	}
+    .corpo__titulo{
+        font-size: 48px;
+        
+    }
+
+    .corpo__subtitulo{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 767.9px) {
+	
+    .corpo__titulo{
+        font-size: 38px;
+        
+    }
+
+    .corpo__subtitulo{
+        font-size: 14px;
+    }
+}
+
+
+
+

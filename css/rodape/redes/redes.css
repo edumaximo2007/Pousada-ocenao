@@ -1,0 +1,15 @@
+.redes{
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:3%;
+}
+
+.redes__trip{
+	display: inline-block;
+	text-align: center;
+	margin-left: 1%;
+}
+.redes__Agradecemos{
+	color: white;
+}

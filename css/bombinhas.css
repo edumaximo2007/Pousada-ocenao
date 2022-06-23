@@ -1,0 +1,10 @@
+#bombinhas{
+	width: 90%;
+	marker-end: 1px;
+}
+
+@media (max-width: 600px) {
+	#bombinhas{
+		display: none;
+	}
+}
