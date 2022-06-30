@@ -34,7 +34,7 @@ li a:hover {
 
 /* mobile */
 
-#btn-mobile {
+.btn-mobile {
 	display: none;
 }
 
@@ -48,7 +48,7 @@ li a:hover {
 		background-color: #8EC4E7;
 	}
 
-	#menu {
+	.menu {
 		display: block;
 		position: absolute;
 		width: 100%;
@@ -62,17 +62,22 @@ li a:hover {
 		overflow-y: hidden;
 	}
 
-	.nav.active #menu {
-		height: calc(100vh - 70px);
+	.nav.active .menu {
+		height: calc(36vh - 70px);
 		visibility: visible;
 		overflow-y: auto;
 	}
-	#menu a {
+
+	.ativo{
+		height: 19.5rem;
+		visibility: visible;
+	}
+	.menu a {
 		padding: 1rem 0;
 		margin: 0 1rem;
 		border-bottom: 2px solid rgba(0, 0, 0, 0.05);
 	}
-	#btn-mobile {
+	.btn-mobile {
 		color: white;
 		display: flex;
 		padding: 0.5rem 1rem;
